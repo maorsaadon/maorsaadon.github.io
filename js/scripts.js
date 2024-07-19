@@ -38,24 +38,12 @@ window.addEventListener('DOMContentLoaded', event => {
 document.addEventListener("DOMContentLoaded", function () {
     const projects = [
         {
-            imgSrc: "/assets/img/Webapp.png",
-            title: "Real-time Code Collaboration",
-            description: "This React application enables real-time code collaboration between clients using sockets for communication.",
-            githubLink: "https://github.com/Ashwal200/Web-App"
-        },
-        {
             imgSrc: "/assets/img/2better.png",
             title: "2Better App",
             description: "An innovative Android app for enhanced productivity and well-being, featuring task organization, habit tracking, and motivation in a user-friendly interface.",
-            githubLink: "https://github.com/Ashwal200/2Better"
+            githubLink: "https://github.com/maorsaadon/2Better"
         },
-        {
-            imgSrc: "/assets/img/cluster.png",
-            title: "NLP Sentence Grouping",
-            description: "This project utilizes NLP techniques such as K-means, Word2Vec, LDA, and TransformSentence to cluster claim sentences from URLs, providing categorized titles for efficient data organization.",
-            githubLink: "https://github.com/Ashwal200/Clustering-Sentences"
-        },
-        
+       
         // Add more projects here
     ];
 
